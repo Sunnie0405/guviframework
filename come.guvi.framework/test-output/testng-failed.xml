@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.MyCourseTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="clickMyCoursesTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.MyCourseTest -->
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="clickLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.HomeTest">
+        <methods>
+          <include name="clickCourselibrary"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.HomeTest -->
+      <class name="testcases.FreeLibraryTest">
+        <methods>
+          <include name="clickFreelibraryTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.FreeLibraryTest -->
+      <class name="testcases.ComboTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="clickCourselibrary"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.ComboTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
